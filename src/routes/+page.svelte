@@ -1,5 +1,6 @@
 <script lang="ts">
     import DatePicker from '../components/DatePicker.svelte';
+    import Image from '../components/Image.svelte';
     import Quote from '../components/Quote.svelte';
     import TodoList from '../components/TodoList.svelte';
 </script>
@@ -13,7 +14,9 @@
         <div class="content-item">
             <TodoList />
         </div>
-        <div class="content-item"></div>
+        <div class="content-item">
+            <Image />
+        </div>
     </div>
 </div>
 
